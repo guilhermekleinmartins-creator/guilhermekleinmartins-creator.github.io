@@ -30,3 +30,5 @@ ul.pubs{list-style:none;margin:0;padding:0}
 ul.pubs li{margin:0 0 20px}
 .t{font-weight:400}
 .meta{display:inline-block;margin-top:2px;color:var(--muted);font-size:15.5px;line-height:1.55}
+nav a.lang{margin-left:6px;padding:2px 9px 3px;border:1px solid var(--rule);border-radius:999px;color:var(--muted);text-transform:none;letter-spacing:.01em}
+nav a.lang:hover{border-color:var(--text);color:var(--text)}
