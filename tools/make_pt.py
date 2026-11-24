@@ -24,6 +24,7 @@ HEADINGS = {
     "<h2>Working papers</h2>": "<h2>Working papers</h2>",
     "<h2>MADE-USP Policy Notes (Notas de Política Econômica)</h2>": "<h2>Notas de Política Econômica (Made/USP)</h2>",
     "<h2>Policy reports</h2>": "<h2>Relatórios</h2>",
+    "<h2>Public hearings</h2>": "<h2>Audiências públicas</h2>",
     "<h2>MADE Blog</h2>": "<h2>Blog do Made</h2>",
     "<h2>Op-eds and essays</h2>": "<h2>Artigos de opinião e ensaios</h2>",
     "<h2>Interviews and press coverage</h2>": "<h2>Entrevistas e imprensa</h2>",
@@ -36,7 +37,7 @@ PARAGRAPHS = {
  "My work has been published in journals such as":
   "<p>Meus trabalhos foram publicados em periódicos como <em>Journal of Development Economics</em>, <em>Oxford Bulletin of Economics and Statistics</em>, <em>Cambridge Journal of Economics</em>, <em>Industrial and Corporate Change</em> e <em>Review of Radical Political Economics</em>. Escrevi artigos de opinião para Project Syndicate, The Conversation, Phenomenal World, Aeon, Folha de S.Paulo, O Globo, O Estado de S. Paulo, Valor Econômico e Nexo, e dei entrevistas ou fui citado por <em>The Economist</em>, <em>Financial Times</em>, BBC Brasil, CNN Brasil e CNBC Brasil.</p>",
  "Policy notes, reports and short analyses":
-  "<p>Notas, relatórios e análises curtas, em sua maioria produzidos no <a href=\"https://madeusp.com.br/\">Centro de Pesquisa em Macroeconomia das Desigualdades (Made/USP)</a>. Em maio de 2025, fui expositor na audiência pública da Comissão Especial sobre a reforma do Imposto de Renda (PL 1.087/2025) na Câmara dos Deputados.</p>",
+  "<p>Notas, relatórios e análises curtas, em sua maioria produzidos no <a href=\"https://madeusp.com.br/\">Centro de Pesquisa em Macroeconomia das Desigualdades (Made/USP)</a>.</p>",
 }
 MONTHS = {"January": "janeiro", "February": "fevereiro", "March": "março", "April": "abril", "May": "maio",
           "June": "junho", "July": "julho", "August": "agosto", "September": "setembro", "October": "outubro",
@@ -44,7 +45,8 @@ MONTHS = {"January": "janeiro", "February": "fevereiro", "March": "março", "Apr
 META = [
     (r"\bWith ", "Com "), (r" and ", " e "), (r"\(online first\)", "(publicado online)"),
     (r"MADE-USP Working Paper", "Working Paper Made/USP"), (r"MADE Blog", "Blog do Made"),
-    (r"^Interview\. ", "Entrevista. "), (r"^Quoted\. ", "Citado. "), (r"Coverage of MADE research\. ", "Repercussão de pesquisa do Made. "),
+    (r"^Interview\. ", "Entrevista. "), (r"^Quoted\. ", "Citado. "), (r"^Invited speaker\. ", "Expositor convidado. "),
+    (r"Chamber of Deputies", "Câmara dos Deputados"), (r"Coverage of MADE research\. ", "Repercussão de pesquisa do Made. "),
     (r"London School of Economics", "London School of Economics"),
 ]
 LINKS = {">Email<": ">E-mail<", ">CV<": ">Currículo<"}
